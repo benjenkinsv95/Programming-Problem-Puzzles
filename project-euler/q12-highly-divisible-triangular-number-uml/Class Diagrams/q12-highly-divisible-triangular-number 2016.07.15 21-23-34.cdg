@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="q12-highly-divisible-triangular-number">
+  <ClassDiagramComponents>
+    <Class name="TriangleNumberDivisor" package="com.benjenkinsprogramming.q12.highly.divisible.triangular.number" visibility="public" xPosition="315.0" yPosition="59.0">
+      <Fields>
+        <Field name="UNINITIALIZED" type="int" visibility="private" isStatic="true"/>
+        <Field name="myNumValue" type="long" visibility="protected"/>
+        <Field name="myNumOfDivisors" type="long" visibility="protected" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="long" name="aNumValue"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="getFirstTriangleNumWithOverNDivisors" returnType="long" visibility="public" isStatic="true">
+          <Argument type="long" name="aNumOfDivisors"/>
+        </Method>
+        <Method name="getNumOfDivisors" returnType="long" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="DigitFinder">
+  <ClassDiagramComponents>
+    <Class name="DigitFinder" package="com.benjenkinsprogramming.q13.large.sum" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="myNumberList" type="List&lt;String&gt;" visibility="private" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="List&lt;String&gt;" name="aNumberList"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="loadNumbers" returnType="List&lt;String&gt;" visibility="public" isStatic="true">
+          <Argument type="String" name="aFilepath"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="findFirstNDigits" returnType="String" visibility="public">
+          <Argument type="int" name="aNum"/>
+        </Method>
+        <Method name="getSumOfFirstNDigits" returnType="long" visibility="private">
+          <Argument type="int" name="aNum"/>
+        </Method>
+        <Method name="getNumberList" returnType="List&lt;String&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
